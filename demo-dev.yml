@@ -1,0 +1,10 @@
+server:
+  port: 12000
+env: dev
+
+spring:
+  application:
+    name: demo
+
+label:
+  demo
