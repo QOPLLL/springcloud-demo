@@ -8,7 +8,7 @@ zuul:
     #简洁写法
 #    product: /myproduct/**
   ignored-patterns:
-    - /**/demo/hello
+    - /**/demo/print
 env:
   dev
 # management:
