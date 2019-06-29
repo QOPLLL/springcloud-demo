@@ -1,0 +1,21 @@
+zuul:
+  routes:
+    api-gateway:
+      path: /demo/**
+      serviceId: demo
+    # 敏感头 Cookie, Set-Cookie, Authorization
+      sensitiveHeaders:
+    #简洁写法
+#    product: /myproduct/**
+  ignored-patterns:
+    - /**/demo/print
+env:
+  dev
+# management:
+#   security:
+#     enabled: false
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
