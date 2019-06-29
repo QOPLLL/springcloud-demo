@@ -9,6 +9,7 @@ zuul:
 #    product: /myproduct/**
   ignored-patterns:
     - /**/demo/print
+    - /**/demo/hello
 env:
   dev
 # management:
